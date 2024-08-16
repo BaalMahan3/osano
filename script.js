@@ -3,7 +3,7 @@ setCookie = (cName, cValue, expDays) => {
     date.setTime(date.getTime() + (expDays * 24 * 60 * 50 * 1000));
     const expires = "expires=" + date.toUTCString();
     
-    document.cookie = cName + "=" + cValue + "; " + expires + "; path=/, path=/index"
+    document.cookie = cName + "=" + cValue + "; " + expires + "; path=/, path=/index, path=/osano"
 }
 
 document.querySelector("#cookies-btn").addEventListener("click", () =>{
