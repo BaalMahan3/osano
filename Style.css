@@ -25,7 +25,7 @@ body{
     color: white;
     background-color: gray;
     z-index: 1;
-    /* display: none; */
+    display: none;
 }
 
 .cookies{
