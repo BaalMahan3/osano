@@ -22,8 +22,8 @@ body{
     width:  100%;
     position: fixed;
     bottom: 0;
-    color: white;
-    background-color: gray;
+    color: gray;
+    background-color: darkgray;
     z-index: 1;
     display: none;
 }
