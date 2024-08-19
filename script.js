@@ -9,4 +9,6 @@ setCookie = (cName, cValue, expDays) => {
 document.querySelector("#cookies-btn").addEventListener("click", () =>{
     document.querySelector("#cookies").style.display = "none";
     setCookie("cookie", true, 30);
+
+    console.log(setCookie);
 })
