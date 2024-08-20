@@ -10,6 +10,6 @@
 setCookie("cookie", true, 30);
 
 // Optional: Hide the cookie banner if you still have one
-document.querySelector("#cookies").style.display = "none";
+/* document.querySelector("#cookies").style.display = "none"; */
 
 console.log("Cookie set: ", document.cookie);
