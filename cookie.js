@@ -8,4 +8,4 @@ function setTestCookie() {
 }
 
 // Automatically set the test cookie when the script loads
-setTestCookie();
+//setTestCookie();
