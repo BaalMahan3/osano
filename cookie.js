@@ -1,4 +1,4 @@
-function setTestCookie() {
+/* function setTestCookie() {
     let date = new Date();
     date.setTime(date.getTime() + (30 * 24 * 60 * 60 * 1000)); // Cookie expires in 30 days
     const expires = "expires=" + date.toUTCString();
@@ -8,4 +8,4 @@ function setTestCookie() {
 }
 
 // Automatically set the test cookie when the script loads
-//setTestCookie();
+setTestCookie(); */
